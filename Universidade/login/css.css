@@ -1,0 +1,170 @@
+body{
+ margin: 0;
+ padding: 0;
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpg);
+ /*background-image: url('background.jpg');*/
+ background-size: cover;
+ font-family:sans-serif;
+}
+#login {
+ width: 320px;
+ height: 420px;
+ border: 2px solid #000;
+ border-radius: 80px 0px 80px 0px;
+ color: #ff3333;
+ background-color: rgba(0,0,5,0.8);
+ top: 50%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%, -50%);
+ box-sizing: border-box;
+ padding: 68px 28px; 
+}
+#usuario {
+ border-radius: 10%;
+ position: absolute;
+ top: -50px;
+ left: 112px;
+}
+h1 {
+ margin: 0;
+ padding-top: 0;
+ padding-left: 0;
+ padding-bottom: 20px;
+ letter-spacing: 10px;
+ text-transform: uppercase;
+ text-align: center;
+ font-size: 25px;
+}
+#login p {
+ margin: 0;
+ padding: 0;
+ font-weight: bold;
+}
+#login input {
+ width: 100%;
+ margin-bottom: 21px; 
+}
+#name{
+ border: none;
+ border-bottom: 1px solid white;
+ background: transparent;
+ outline: none;
+ height: 40px;
+ color: white;
+ font-size: 16px;
+}
+#password{
+ border: none;
+ border-bottom: 1px solid white;
+ background: transparent;
+ outline: none;
+ height: 40px;
+ color: white;
+ font-size: 16px;
+}
+#botao{
+ border: none;
+ outline: none;
+ height: 35px;
+ color: #000;
+ background: #fff;
+ border-radius: 20px;
+ transition: 0.2s;
+}
+#botao:hover{
+ cursor: pointer;
+ background: #ff3333;
+ transition: 0.2s;
+}
+#profile{
+	background-color: white;
+	margin-right: 61.2%;
+	margin-left: 29.8%;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 42.95%;
+	margin-top: 40px;
+	border-radius: 
+}
+table{
+		margin: 0,0,0,0;
+		margin-left: 48.2;
+		margin-top: 10px;
+		background-color: white; 
+
+}
+#titulo{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	margin-top: -520px;
+}
+#subtitulo{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+#tam{
+	font-size: 16px;
+}
+
+header{
+	
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block; 
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	border-radius: 2px;
+}
+ul li a:hover{
+	background-color: #ff3333;
+	color: white;
+}
+ul li.primeiro a{
+	background-color: #ff3333;
+	color: white;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin:auto;
+}
+#caixa{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	margin-top: -520px;
+}
+#tabela{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	border-collapse: collapse;
+}
+#centro{
+	text-align: center;
+	margin-top: -60px;
+}
+body{
+	font-family: one-day
+}
